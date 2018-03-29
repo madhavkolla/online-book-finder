@@ -126,40 +126,9 @@ The generated project includes React and ReactDOM as dependencies. It also inclu
 npm install --save <library-name>
 ```
 
-## Importing a Component
-
-This project setup supports ES6 modules thanks to Babel.<br>
-While you can still use `require()` and `module.exports`, we encourage you to use [`import` and `export`](http://exploringjs.com/es6/ch_modules.html) instead.
-
-For example:
-
-### `Button.js`
-
-```js
-import React, { Component } from 'react';
-
-class Button extends Component {
-  render() {
-    // ...
-  }
-}
-
-export default Button; // Don’t forget to use export default!
-```
-
-### `DangerButton.js`
+The node_modules folder does not exist. To create it, run
+npm install
 
 
-```js
-import React, { Component } from 'react';
-import Button from './Button'; // Import a component from another file
-
-class DangerButton extends Component {
-  render() {
-    return <Button color="red" />;
-  }
-}
-
-export default DangerButton;
-```
-
+To start the app, run
+npm start
