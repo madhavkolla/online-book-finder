@@ -21,7 +21,7 @@ class Books extends Component {
           <Panel key={id} header={title} eventKey={id}>
             <Grid>
               <Row>
-                <Col xs={3} md={3} lg={3}>
+                <Col xs={4} md={4} lg={4}>
                   <img src={thumbnail} role="presentation" />
                 </Col>
                 <Col xs={8} md={8} lg={8}>

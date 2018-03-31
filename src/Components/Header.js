@@ -7,7 +7,8 @@ class Header extends Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            BookFinder
+
+            Online Book Finder
           </Navbar.Brand>
         </Navbar.Header>
       </Navbar>
